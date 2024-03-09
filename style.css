@@ -3,16 +3,70 @@
     padding: 0;
     font-family: sans-serif;
 }
+
 .main1 {
     width: 100%;
     height: 100vh;
-    background-image: linear;
+    background-image: url(./pexels-teona-swift-6913721.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    position: relative;
+
 }
-ul{
+
+ul {
     display: flex;
     justify-content: center;
+
+}
+
+ul li a {
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul li {
+
     display: inline;
+    height: 20px;
+    padding: 40px;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 40vh;
+    position: relative;
+    top: 160px;
+}
+
+.home h5 {
+    font-size: 30px;
+    color: white;
+    position: relative;
+}
+
+.home p {
+    font-size: 50px;
+    color: snow;
+}
+
+.home button {
+    margin: 20px;
+    background-color: yellow;
+    color: blue;
+    font-size: 20px;
+}
+
+.home button:hover {
+    background-color: brown;
+    color: wheat;
+}
+
+ul li a:hover {
+    text-decoration: underline;
 }
